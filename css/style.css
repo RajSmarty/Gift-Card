@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
 	padding: 0;
@@ -26,6 +27,8 @@ header.header_area {
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
 }
+
+
 .header_area.sticky_header .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
@@ -1223,4 +1226,36 @@ h2 {
 .img-fluids{
     width: 500px;
     height: 100rem;
+}
+
+.withoutCardHover{
+    background-color: #ffffff;
+}
+
+.withoutCardHovers{
+    background-color:rgb(235, 232, 232);
+}
+
+.cardHover:hover{
+    background-color: #3f345b;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+.purple{
+    background-color: #c937b7;
+}
+
+.white{
+    background-color: white;
+}
+
+.pickHover:hover{
+    font-weight: bolder;
+    color: red;
+    background-color: red;
+}
+
+.backgroundImg{
+    background-image: url("image/familyframesample.jpg");
 }
