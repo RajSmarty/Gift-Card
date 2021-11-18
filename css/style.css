@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body {
 	padding: 0;
 	margin: 0;
@@ -1259,4 +1259,14 @@ h2 {
 .backgroundImg{
     background-image: url("image/familyframesample.jpg");
     
+}
+
+#bgrImgwedding::before{
+    content: "";
+    background: url(../images/weddingGiftCard.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 93%;
+    z-index: -1;
+    filter: saturate(1.2);
 }
