@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 body {
 	padding: 0;
 	margin: 0;
@@ -1269,4 +1271,83 @@ h2 {
     width: 93%;
     z-index: -1;
     filter: saturate(1.2);
+}
+
+#FontImgBgr1::before{
+    content: "";
+    background: url(../images/leftFImgpts.png) no-repeat  ;
+    position: absolute;
+    /* margin-left: 5rem; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 60%;
+}
+
+#FontImgBgr2::before{
+    content: "";
+    background: url(../images/rightFImgpts.png) no-repeat  ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 60%;
+}
+.purpleWithoutHover{
+
+    background-color: rgb(172, 8, 172);
+    width: 10rem;
+    height: 2.6rem;
+    color: white;
+    font-size: larger;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.purpleHover:hover{
+    background-color: rgb(146, 5, 146);
+    
+}
+
+.yellowHover:hover{
+    background-color:#f0b72d ; 
+}
+
+.yellowWithoutHover{
+    background-color: #f3decb;
+    width: 12rem; height: 2.6rem;  
+    color: rgb(0, 0, 0);
+    font-size: larger; border: 2px solid #f0b72d;
+    margin-right: 0.5rem;
+    border-radius: 5px;    
+}
+
+#storesImg::before{
+    content: "";
+    background: url(../images/sw600x800.jpg) no-repeat  ;
+    position: absolute;
+    height: 655px;
+    width: 800px;
+    z-index: -1;
+}
+
+.purpleWithoutHover{
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+}
+
+.purpleHover:hover{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+}
+
+.purplesWithoutHover{
+    background-color: rgb(161, 6, 161);
+    color: rgb(255, 255, 255);
+}
+
+.purplesHover:hover{
+    background-color: rgb(180, 23, 180);
+    color: rgb(255, 255, 255);
 }
